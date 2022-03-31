@@ -1,0 +1,392 @@
+/* ---------------------------------global styles------------------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  scroll-behavior: smooth;
+  font-size: 20px;
+  background-color: #ffffff;
+  position: relative;
+  height: 200vh;
+}
+a {
+  text-decoration: none;
+  color: #172339;
+}
+.flex_row_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_row_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_column_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  padding: 30px 100px;
+  height: 1200px;
+}
+.container-1 {
+  padding: 30px 100px;
+}
+/* -----------------------End of global styles--------------------------------- */
+
+/* ------------xxx--------------header styles----------------xxx------------------------ */
+
+.btn {
+  padding: 18px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #172339;
+  font-size: 22px;
+  transition: 0.4s ease;
+}
+.btn:hover {
+  background-color: #172339;
+  transition: 0.4s ease;
+  color: #ffffff;
+}
+.header {
+  max-width: 100%;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 380px) and (max-width: 520px) {
+  .btn {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  .container {
+    padding: 20px 30px;
+  }
+}
+
+/* -------------xxx-------------end header styles------------------------xxx---------------- */
+
+/* ----------------------main styles------------------------------------------- */
+.main_container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 2rem;
+}
+
+.main_title h2 {
+  font-size: 4rem;
+  color: #172339;
+  padding-bottom: 1rem;
+  font-family: "Epilogue", Regular;
+  font-weight: 600;
+  z-index: -1;
+}
+.main_para {
+  max-width: 20rem;
+  line-height: 1.2rem;
+  padding-bottom: 1rem;
+  font-family: "Epilogue", Regular;
+  font-weight: 100;
+}
+.btn_container-2 {
+  padding-top: 1.5rem;
+}
+.side_span {
+  font-size: 4rem;
+  color: #172339;
+  font-weight: 520;
+  font-family: "Epilogue", Regular;
+}
+.new {
+  padding-bottom: 1.5rem;
+}
+
+.btn-2:hover {
+  background: #cb30e3;
+  background-image: linear-gradient(to right, #cb30e3, #ffa84e);
+  transition: 0.4s ease-in-out;
+}
+@media (min-width: 380px) and (max-width: 520px) {
+  .main_title h2 {
+    font-size: 2.1rem;
+    max-width: 100%;
+  }
+  .main_para {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .main_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 520px) and (max-width: 1000px) {
+  .main_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .side {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 16px;
+    padding-left: 10rem;
+    position: static;
+  }
+  .new {
+    padding-right: 3rem;
+  }
+  .container {
+    padding: 20px 40px;
+  }
+}
+/* ----------xxxx------------end of main styles--------------------xxx----------------------- */
+
+/* ----------------------------Absolute Style-------------------------------- */
+
+.image-2 {
+  position: absolute;
+  top: 8rem;
+  left: 20rem;
+}
+.image-1 {
+  position: absolute;
+  top: 5rem;
+  left: 25rem;
+  z-index: 1;
+}
+.img-long {
+  height: 500px;
+}
+@media (min-width: 380px) and (max-width: 520px) {
+  .image-2 {
+    top: 7rem;
+    left: 4rem;
+  }
+}
+.image-9 {
+  display: none;
+}
+
+.photo-1 {
+  position: absolute;
+  top: 43rem;
+  left: 9rem;
+  z-index: 99;
+}
+.curve-2 {
+  position: absolute;
+  top: 52rem;
+  left: 27rem;
+}
+.image-6 {
+  position: absolute;
+  top: 45rem;
+  left: 4rem;
+}
+
+/* ----------------------------End ofAbsolute Style-------------------------------- */
+
+/* ---------------------------hero styles---------------------------------------------*/
+.container-1 {
+  padding: 30px 100px;
+  position: absolute;
+  height: 100vh;
+  top: 900px;
+}
+.container-3 {
+  background-color: #172339;
+  border-radius: 20px;
+  height: 90vh;
+  padding: 20px 50px;
+}
+.frame-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 500px;
+  font-size: 16px;
+  max-width: 100%;
+  padding-top: 40px;
+}
+.frame-title {
+  font-size: 42px;
+  word-spacing: 5px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.frame-title span {
+  font-weight: bold;
+  color: #ffffff;
+}
+.frame-para {
+  line-height: 30px;
+  text-align: left;
+
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 40px;
+  color: #f3ede7;
+}
+.frame-highlight h3 {
+  font-size: 20px;
+  color: #f3ede7;
+  padding-bottom: 10px;
+}
+.frame-highlight p {
+  font-size: 12px;
+  color: #f3ede7;
+  word-spacing: 5px;
+}
+.image-3 {
+  width: 340px;
+  height: 565px;
+}
+
+@media (min-width: 520px) and (max-width: 1000px) {
+  .frame-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    align-items: center;
+    padding-top: 200px;
+    font-size: 2rem;
+  }
+  .frame-para {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 0.9rem;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  .frame-title {
+    padding-bottom: 10px;
+  }
+  .photo-1 {
+    top: 770px;
+    left: 350px;
+    position: absolute;
+  }
+
+  .image-3 {
+    height: 300px;
+    width: 240px;
+  }
+  .curve-2 {
+    position: absolute;
+    top: 1090px;
+    left: 400px;
+  }
+  .image-6 {
+    top: 35rem;
+    left: 10rem;
+  }
+}
+@media (min-width: 380px) and (max-width: 520px) {
+  .frame-content {
+    padding-left: 10px;
+    font-size: 12px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 400px;
+  }
+
+  .container {
+    height: 230vh;
+  }
+  .image-1,
+  .image-6 {
+    display: none;
+  }
+  .photo-1 {
+    display: none;
+  }
+  .side {
+    display: none;
+  }
+  .image-9 {
+    position: absolute;
+    top: 28rem;
+    left: 0.8rem;
+    width: 100%;
+  }
+  .container-1 {
+    padding: 0;
+  }
+  .container-3 {
+    padding: 0;
+  }
+  .curve-2 {
+    top: 0;
+  }
+  .photo-1 {
+    display: block;
+    top: 40rem;
+    left: 90px;
+  }
+  .image-3 {
+    height: 400px;
+    width: 200px;
+  }
+  .pic {
+    flex-direction: column;
+    padding-top: 200px;
+  }
+  .pic > div {
+  }
+  .footer_container {
+    height: 100px;
+  }
+  .container-5 {
+    padding: 5px 10px;
+  }
+}
+/* ---------------xxx------------ end of hero styles-----------------------xxx---------------------- */
+
+/* -----------------------------------footer styles--------------------------------------- */
+.footer_container {
+  background-color: #f3ede7;
+  height: 350px;
+}
+.pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 200px;
+  width: 100%;
+}
+.pic > div {
+  cursor: pointer;
+}
+.copy {
+  font-size: 13px;
+  cursor: pointer;
+}
+.container-5 {
+  padding: 30px 100px;
+}
+.request {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  cursor: pointer;
+}
+/* ----------------xxx-------------------footer styles-----------------xxxx---------------------- */
