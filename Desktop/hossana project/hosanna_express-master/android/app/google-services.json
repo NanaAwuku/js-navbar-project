@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69328748439",
+    "project_id": "avid-lock-367618",
+    "storage_bucket": "avid-lock-367618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69328748439:android:c1c569f60b89270a670ed2",
+        "android_client_info": {
+          "package_name": "com.example.hosannashuttle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69328748439-fdn3eam5d7bdapdea3ip12jmpo0lpdde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxvTPxWrcV6-2zL4x-H08I3t8ob_WQETg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69328748439-fdn3eam5d7bdapdea3ip12jmpo0lpdde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
